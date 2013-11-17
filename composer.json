@@ -1,0 +1,38 @@
+{
+    "name": "Mediavince/doctrine-fixtures-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony Extended DoctrineFixturesBundle to accept file instead of only dir, and fixed a bug preventing tests to be launched",
+    "keywords": ["Persistence", "Fixture"],
+    "homepage": "http://www.doctrine-project.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabien Potencier",
+            "email": "fabien@symfony.com"
+        },
+        {
+            "name": "Doctrine Project",
+            "homepage": "http://www.doctrine-project.org"
+        },
+        {
+            "name": "Symfony Community",
+            "homepage": "http://symfony.com/contributors"
+        },
+        {
+            "name": "Vincent Houde",
+            "email": "developer@mediavince.com",
+            "homepage": "http://mediavince.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/symfony": ">=2.0,<2.1",
+        "doctrine/data-fixtures": "*",
+        "doctrine/doctrine-fixtures-bundle": ">=2.0,<2.1"
+    },
+    "autoload": {
+        "psr-0": { "Mediavince\\DoctrineFixturesBundle": "" }
+    },
+    "target-dir": "Mediavince/DoctrineFixturesBundle"
+}
+
